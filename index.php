@@ -4,7 +4,9 @@
  * Copyright (c) 2011 Martin Nezval
  * Link: http://Calendar.Nezval.NET
  * E-mail: martin@nezval.net
- * TTTTT 
+ * TTTTT
+ * XXX
+ * AAA   
  */
 
 include 'calendar.php';
@@ -26,13 +28,7 @@ include 'calendar.php';
 <?php
         // --- C1 ---
 
-        $c1 = new Calendar($_GET['year'] . '-' . $_GET['month'] . '-09 00:00:00');                
-        $c1->typ = 'month';
-        $c1->day_name = array('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun');
-        $c1->link_navi = 'http://calendar.nezval.net/index.php?';
         
-        $c1->linkDay('2011-11-10 00:00:00', 'http://calendar.nezval.net/');
-        $c1->linkDay('2011-11-03 00:00:00', 'http://calendar.nezval.net/');
         
         echo '<h3>C1 - Calendar</h3>';
         echo '<div class="calendar">';
