@@ -4,107 +4,14 @@
  * Copyright (c) 2011 Martin Nezval
  * Link: http://Calendar.Nezval.NET
  * E-mail: martin@nezval.net
+ * TTTTT 
  */
 
 include 'calendar.php';
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html lang="cs" xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml"> 
-<head>  
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
-    <meta content="cs"  http-equiv="content-language" />  
-    <meta name="author" content="Martin Nezval; e-mail:martin@nezval.net" />
-    <title>PHP třída Calendar</title>
-    <style type="text/css">
-    <!--
-    #obsah {
-        display: block;
-        width: 960px;
-        padding: 0;
-        margin: 0 auto;
-    }
-    table {
-        margin: 20px 0;
-        font-family: verdana;
-        font-size: 0.8em;
-    }
+
     
-    .calendar table {        
-        border: 1px solid #CBD9E0;
-    }    
-    .calendar td {       
-        width: 30px;
-        height: 30px;
-        border: 1px solid #CBD9E0;
-        background-color: #E9EFF8;
-        text-align: center;
-    }
-    .calendar .calendar_tr_day td {
-        background-color: #CBD9E0;        
-        font-weight: bold;
-    }
-    .calendar .calendar_td_aktual {
-        background-color: #CBD9E0;
-    }
-    .calendar span.calendar_navi_c {
-        padding: 0 20px;        
-    }
-    
-    .calendar2 table {        
-        width: 100%;
-        border: 1px solid #E1E2E4;
-    }
-    .calendar2 td {              
-        width: 14%;
-        height: 100px;
-        padding: 2px;
-        border: 1px solid #E1E2E4;        
-        text-align: left;
-        vertical-align: top;
-    }
-    .calendar2 .calendar_tr_navi td {
-        height: 20px;
-    }
-    .calendar2 .calendar_tr_day td {
-        height: 20px;
-        background-color: #E1E2E4;        
-        font-weight: bold;
-    }
-    .calendar2 .calendar_td_aktual {
-        background-color: #F1F1F2;
-    }
-    .calendar2 span.calendar_navi_c {
-        padding: 0 20px;        
-    }
-    .calendar2 .calendar_note {
-        padding: 2px;
-        font-size: 0.8em;
-    }
-        
-    .calendar3 table {                
-        border: 1px solid #E1E2E4;
-    }
-    .calendar3 td {              
-        padding: 2px;        
-        text-align: left;
-        vertical-align: top;
-    }
-    .calendar3 .calendar_tr_aktual td {
-        background-color: #F1F1F2;
-    }
-    .calendar3 .calendar_note {
-        padding: 10px;                
-    }
-    .calendar3 .calendar_date {        
-        font-weight: bold;        
-    }
-    .calendar3 .calendar_time {
-        padding: 2px;
-        margin: 0 20px 10px 0;
-        background-color: #F1F1F2;
-        font-weight: bold;
-    }
     //-->
     </style>
 </head>
