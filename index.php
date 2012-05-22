@@ -6,7 +6,8 @@
  * E-mail: martin@nezval.net
  * TTTTT
  * XXX
- * AAA   
+ * AAA
+ * WWW    
  */
 
 include 'calendar.php';
